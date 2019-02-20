@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rodar a aplicação
 
-Things you may want to cover:
+- Para rodar a aplicação basta ter o docker-compose instalado no computador e rodar o comando 
 
-* Ruby version
+```
+docker-compose up -d
+./scripts/drails db:create db:migrate
+```
 
-* System dependencies
+E acessar o localhost:3000
 
-* Configuration
+## Para o teste
 
-* Database creation
+- Utilizei rspec + factory girl para testes
+- Utilizei docker para construir os ambietes
+- rubocop para métricas de código
+- Ci em: https://travis-ci.org/thiagovsk/desafio-programacao-1
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
