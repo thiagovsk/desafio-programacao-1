@@ -30,6 +30,7 @@ AllCops:
     - 'vendor/**/*'
     - 'src/worker.rb'
     - 'bin/*'
+    - 'db/schema.rb'
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
