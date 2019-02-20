@@ -1,0 +1,10 @@
+<h1>Purchase#index</h1>
+<%= flash[:notice] %>
+
+<div>
+  <h4> Import Purchase </h4>
+  <%= form_tag(import_purchases_path, multpart: true) do %>
+    <%= file_field_tag :file %>
+    <%= submit_tag 'Import CSV'%>
+  <% end %>
+</div>
