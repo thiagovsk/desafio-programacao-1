@@ -29,6 +29,7 @@ AllCops:
     - 'spec/support/factories/*.rb'
     - 'vendor/**/*'
     - 'src/worker.rb'
+    - 'bin/*'
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
